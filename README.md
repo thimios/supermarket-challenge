@@ -1,4 +1,4 @@
-# supermarket-challenge
+# supermarket-challenge requirements
 A Ruby coding challenge in the supermarket. We’ll implement the code for a checkout system that handles pricing schemes such as “apples cost 50 cents, three apples cost $1.30”.
 
 ## Step 1
@@ -48,4 +48,13 @@ co.scan(item)
 ...
 price = co.total
 
+```
+
+# Running the solution
+
+Bundle and run the specs:
+
+```bash
+bundle
+rspec
 ```
